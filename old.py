@@ -134,17 +134,7 @@ canvas.pack()
 #             hladaj = False
 #
 #
-# def tuk(event):
-#     global pohybX, pohybY
-#     dx = [-1, 1, 0, 0]
-#     dy = [0, 0, -1, 1]
-#     direction = ['Left', 'Right', 'Up', 'Down']
-#     for i in range(4):
-#         if event.keysym == direction[i]:
-#             pohybX = dx[i]
-#             pohybY = dy[i]
-#
-#
+
 # def casovac():
 #     pohyb_hada()
 #     update_text()
@@ -163,7 +153,7 @@ canvas.pack()
 if __name__ == '__main__':
     tkinter.mainloop()
 
-# canvas.bind_all('<Key>', tuk)
+
 # nacitaj_mapu(level)
 # novy_bod()
 # casovac()
